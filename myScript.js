@@ -1,6 +1,8 @@
 $(document).ready(function(){
-	$("p").click(function(){
-		$("p").hide(
-		);
+	$("#hide").click(function(){
+		$("p").hide();
+	});
+	$("#show").click(function(){
+		$("P").show();
 	});
 });
